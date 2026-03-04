@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package factorization;
+
+// Définition du service Factorization
+service FactorizationService {
+    // Mode flux bidirectionnel
+    rpc FactorizeStream (stream FactorRequest) returns (stream FactorResponse);
+}
+
+// Message pour envoyer un nombre à factoriser
+message FactorRequest {
+    int64 number = 1;
+}
+
+// Message pour renvoyer les facteurs premiers
+message FactorResponse {
+    repeated int64 factors = 1;
+}
