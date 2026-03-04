@@ -1,6 +1,6 @@
 # client-server-programming-with-grpc
 
-gRPC is a high performance open-source framework developed by Google that allow clients to interact with servers via a remote procedure call (RPC) interface.
+gRPC is a high performance open-source framework developed by Google that allows clients to interact with servers via a remote procedure call (RPC) interface.
 
 The main advantage of gRPC is that it allows communication between different languages (interoperability).
 
