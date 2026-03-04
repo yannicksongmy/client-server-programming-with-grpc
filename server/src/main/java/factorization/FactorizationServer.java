@@ -14,7 +14,7 @@ public class FactorizationServer {
                 .build()
                 .start();
 
-        System.out.println("🚀 Serveur gRPC démarré sur le port 50052...");
+        System.out.println("gRPC server started on port 50052...");
         server.awaitTermination();
     }
 }
