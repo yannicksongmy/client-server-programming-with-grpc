@@ -8,4 +8,4 @@ In this project, the server is coded in Java and the client is coded in Python, 
 
 To test it, you must first launch the server and ensure that a PID is assigned to it using the following command : **./gradlew run &**. Then, you must launch the client using the following command : **python3 client.py**.
 
-You can now factorize your numbers !
+Great ! You can now factorize your numbers !
