@@ -1,4 +1,6 @@
-# client-server-programming-with-grpc
+# Client-Server programming with grpc
+
+Project on C/S programming. This work was conducted as part of the _Systèmes Repartis et Nouvelles Technologies_ class given by Mrs. Faïza NAJJAR, Dr. in Computer Science during my first year of master's studies (Computer Science Master @ENSI, March 2025).
 
 ## Description
 **gRPC** is a high performance open-source framework developed by Google that allows clients to interact with servers via a **remote procedure call (RPC)** interface.
